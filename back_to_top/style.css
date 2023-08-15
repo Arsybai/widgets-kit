@@ -1,0 +1,30 @@
+.content {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffb6b9;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-top-button img {
+  width: 30px;
+  height: 30px;
+}
+
+.back-to-top-button:hover {
+  background-color: #ff8c94;
+}
