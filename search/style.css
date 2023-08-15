@@ -1,0 +1,33 @@
+.search-widget {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#searchInput {
+  border: none;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  background-color: inherit;
+  outline: none;
+}
+
+#searchButton {
+  border: none;
+  background-color: #ffb6b9;
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#searchButton img {
+  width: 20px;
+  height: 20px;
+}
+
+#searchButton:hover {
+  background-color: #ff8c94;
+}
